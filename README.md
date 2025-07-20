@@ -7,6 +7,7 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 ---
 
 
+
 ## Objectives
 
 - Extract activations from a pretrained LLM (GPT-2).
@@ -16,6 +17,7 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 - Evaluate generalizability across models or datasets.
 
 ---
+
 
 ## Methodology Overview
 
