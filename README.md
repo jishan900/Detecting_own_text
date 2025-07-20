@@ -34,7 +34,7 @@ Visuals/
 ## Objectives
 
 - Extract activations from a pretrained LLM (GPT-2).
-- Compare **human-written** vs. **GPT-2-generated** completions.
+- Compare human written vs. GPT-2-generated completions.
 - Train a classifier (e.g., XGBoost) to distinguish them using activation patterns alone.
 - Visualize results and explore feature importance.
 - Evaluate generalizability across models or datasets.
@@ -50,11 +50,11 @@ Visuals/
 
 ### 2. **Activation Extraction**
 - Passed each completion through `distilgpt2`.
-- Extracted the **last hidden layer's activation** for the **final token**.
+- Extracted the last hidden layer's activation for the final token.
 
 
 ### 3. **Classification**
-- Used **XGBoost** to classify activation vectors as:
+- Used XGBoost to classify activation vectors as:
   - `human` (label = 0)
   - `gpt2` (label = 1)
 - Trained/tested on a combined dataset of 36,000 samples (balanced).
@@ -71,7 +71,7 @@ Visuals/
 - **ROC AUC:** 0.98
 - **Average Precision:** 0.98
 
-These metrics demonstrate that the classifier can **effectively distinguish** between LLM and human text purely from internal activations.
+These metrics demonstrate that the classifier can effectively distinguish between LLM and human text purely from internal activations.
 
 | Confusion Matrix | ROC Curve | PR Curve | Feature Importance |
 |------------------|-----------|----------|---------------------|
