@@ -15,11 +15,11 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 
 LLM\_Self\_Recognition.ipynb
 Dataset/
-│   ├── c4-shard-00000.json.gz              # C4-realnewslike raw data
-│   ├── c4\_prompt\_completion\_pairs.csv      # Human-authored prompt-completion pairs
-│   ├── gpt2\_prompt\_completion\_pairs.csv    # LLM-generated completions for same prompts
+│   ├── c4-shard-00000.json.gz              
+│   ├── c4\_prompt\_completion\_pairs.csv      
+│   ├── gpt2\_prompt\_completion\_pairs.csv    
 │   ├── combined\_prompt\_completion\_pairs.csv
-│   ├── activations\_dataset.csv             # Activation vectors + labels
+│   ├── activations\_dataset.csv             
 
 Visuals/
 │   ├── confusion\_matrix.png
