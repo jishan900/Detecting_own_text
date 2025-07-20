@@ -5,7 +5,7 @@
 
 # Do LLMs Recognize Their Own Writing?
 
-This project investigates whether Large Language Models (LLMs), such as GPT-2, can recognize their own generated text based solely on **internal activation patterns**. We extract hidden state vectors from an LLM and train a classifier to distinguish between **human-authored** and **LLM-generated** text.
+This project investigates whether Large Language Models (LLMs), such as GPT-2, can recognize their own generated text based solely on internal activation patterns. We extract hidden state vectors from an LLM and train a classifier to distinguish between human authored and LLM-generated text.
 
 ---
 
