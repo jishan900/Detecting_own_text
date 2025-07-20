@@ -126,11 +126,11 @@ This project was developed as part of a research investigation into LLM self-rec
 
 ## License
 
-[MIT LICENSE](https://github.com/jishan900/robust-airl-ppo-trpo/blob/master/LICENSE)
+[MIT LICENSE](https://github.com/jishan900/Detecting_own_text/blob/master/LICENSE)
 
 ---
 
 ## Citation
-[CITATION](https://github.com/jishan900/robust-airl-ppo-trpo/blob/master/CITATION.cff)
+[CITATION](https://github.com/jishan900/Detecting_own_text/blob/master/CITATION.cff)
 
 ---
