@@ -51,7 +51,7 @@ Visuals/
 ### 2. **Activation Extraction**
 - Passed each completion through `distilgpt2`.
 - Extracted the **last hidden layer's activation** for the **final token**.
-- Stored as 768-dimensional vectors.
+
 
 ### 3. **Classification**
 - Used **XGBoost** to classify activation vectors as:
@@ -75,7 +75,7 @@ These metrics demonstrate that the classifier can **effectively distinguish** be
 
 | Confusion Matrix | ROC Curve | PR Curve | Feature Importance |
 |------------------|-----------|----------|---------------------|
-| ![Confusion Matrix](Visuals/confusion_matrix.png) | ![ROC](Visuals/roc_curve.png) | ![PR](Visuals/pr_curve.png) | ![Features](Visuals/top_20_features.png) |
+| ![Confusion Matrix](<img width="600" height="500" alt="Image" src="https://github.com/user-attachments/assets/499d048d-6788-43b7-a8df-88a969bbff4b" />) | ![ROC](Visuals/roc_curve.png) | ![PR](Visuals/pr_curve.png) | ![Features](Visuals/top_20_features.png) |
 
 ---
 
