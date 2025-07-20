@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this dataset or project in your research, please cite it as below."
+title: "Do LLMs Recognize Their Own Writing?"
+authors:
+  - family-names: "Jishan"
+    given-names: "Md Asifuzzaman"
+    
+    
+version: "1.0"
+date-released: "2025-07-21"
+url: "https://github.com/jishan900/Detecting_own_text"
+doi: 
+license: "MIT" 

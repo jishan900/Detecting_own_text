@@ -126,8 +126,11 @@ This project was developed as part of a research investigation into LLM self-rec
 
 ## License
 
-This project is for academic and research use. Dataset licenses are inherited from the original `C4` and `GPT-2` usage terms.
+[MIT LICENSE](https://github.com/jishan900/robust-airl-ppo-trpo/blob/master/LICENSE)
 
 ---
 
+## Citation
+[CITATION](https://github.com/jishan900/robust-airl-ppo-trpo/blob/master/CITATION.cff)
 
+---
