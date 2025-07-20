@@ -1,6 +1,3 @@
-# Detecting_own_text
-
-
 ---
 
 # Do LLMs Recognize Their Own Writing?
