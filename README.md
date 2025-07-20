@@ -6,25 +6,7 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 
 ---
 
-## Project Structure
 
-```
-
-LLM\_Self\_Recognition.ipynb
-Dataset/
-│   ├── c4-shard-00000.json.gz              
-│   ├── c4\_prompt\_completion\_pairs.csv      
-│   ├── gpt2\_prompt\_completion\_pairs.csv    
-│   ├── combined\_prompt\_completion\_pairs.csv
-│   ├── activations\_dataset.csv             
-
-Visuals/
-│   ├── confusion\_matrix.png
-│   ├── roc\_curve.png
-│   ├── pr\_curve.png
-│   └── top\_20\_features.png
-
-````
 
 ---
 
@@ -98,9 +80,14 @@ To validate robustness:
 ## Dependencies
 
 ```bash
+os
+random
+warnings
+numpy
 transformers
-tensorflow
+scikit-learn
 xgboost
+torch
 scikit-learn
 pandas
 matplotlib
