@@ -7,9 +7,6 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 ---
 
 
-
----
-
 ## Objectives
 
 - Extract activations from a pretrained LLM (GPT-2).
@@ -88,7 +85,6 @@ transformers
 scikit-learn
 xgboost
 torch
-scikit-learn
 pandas
 matplotlib
 seaborn
@@ -97,7 +93,7 @@ seaborn
 Install with:
 
 ```bash
-pip install transformers tensorflow xgboost scikit-learn pandas matplotlib seaborn
+pip install transformers torch os random warnings numpy xgboost scikit-learn pandas matplotlib seaborn
 ```
 
 ---
