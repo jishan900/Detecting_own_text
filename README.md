@@ -75,7 +75,7 @@ These metrics demonstrate that the classifier can **effectively distinguish** be
 
 | Confusion Matrix | ROC Curve | PR Curve | Feature Importance |
 |------------------|-----------|----------|---------------------|
-| ![Confusion Matrix](<img width="600" height="500" alt="Image" src="https://github.com/user-attachments/assets/499d048d-6788-43b7-a8df-88a969bbff4b" />) | ![ROC](Visuals/roc_curve.png) | ![PR](Visuals/pr_curve.png) | ![Features](Visuals/top_20_features.png) |
+| ![Confusion Matrix](https://github.com/jishan900/Detecting_own_text/blob/master/Plots/confusion_matrix.png) | ![ROC](Visuals/roc_curve.png) | ![PR](Visuals/pr_curve.png) | ![Features](Visuals/top_20_features.png) |
 
 ---
 
