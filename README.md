@@ -115,7 +115,9 @@ pip install -r requirements.txt
 
 ## Credits
 
-This project was developed as part of a research investigation into LLM self-recognition, activation analysis, and classification of AI-generated content. Dataset subset from AllenAI and Hugging Face.
+This project was developed as part of a research investigation into LLM self-recognition, activation analysis, and classification of AI-generated content. It utilizes a dataset subset from AllenAI and Hugging Face.
+
+Special credit to Jonas Schäfer, under whose guidance and direction this task was assigned and executed.
 
 ---
 
