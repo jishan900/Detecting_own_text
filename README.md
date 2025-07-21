@@ -6,8 +6,6 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 
 ---
 
-
-
 ## Objectives
 
 - Extract activations from a pretrained LLM (GPT-2).
@@ -17,6 +15,7 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 - Evaluate generalizability across models or datasets.
 
 ---
+
 
 
 ## Methodology Overview
@@ -38,6 +37,7 @@ This project investigates whether Large Language Models (LLMs), such as GPT-2, c
 - Trained/tested on a combined dataset of 36,000 samples (balanced).
 - Visualized performance using ROC, PR curve, and feature importance.
 
+
 ---
 
 ## Results Summary
@@ -57,6 +57,7 @@ These metrics demonstrate that the classifier can effectively distinguish betwee
 
 ---
 
+
 ## Generalization Strategy
 
 To validate robustness:
@@ -67,6 +68,7 @@ To validate robustness:
 
 ---
 
+
 ## Future Improvements
 
 - Extract pooled or multi-layer embeddings instead of final-token only.
@@ -76,7 +78,10 @@ To validate robustness:
 
 ---
 
+
 ## Dependencies
+
+Required libraries:
 
 ```bash
 os
@@ -98,6 +103,14 @@ Install with:
 pip install transformers torch os random warnings numpy xgboost scikit-learn pandas matplotlib seaborn
 ```
 
+Or,
+
+
+```bash
+pip install -r requirements.txt
+```
+
+
 ---
 
 ## Credits
@@ -105,6 +118,7 @@ pip install transformers torch os random warnings numpy xgboost scikit-learn pan
 This project was developed as part of a research investigation into LLM self-recognition, activation analysis, and classification of AI-generated content. Dataset subset from AllenAI and Hugging Face.
 
 ---
+
 
 ## License
 
